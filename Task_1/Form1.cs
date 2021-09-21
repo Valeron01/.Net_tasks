@@ -17,9 +17,22 @@ namespace WindowsFormsApplication1
             InitializeComponent();
         }
 
+        Random r;
         private void Form1_Load(object sender, EventArgs e)
         {
+            r = new Random();
+            string content = "";
 
+
+            float[][] matrix = RandomMatrix(r.Next(2, 5));
+            foreach (var item in matrix)
+            {
+                content += M2S(item) + "\n";
+            }
+
+            content = content.Remove(content.Length - 1);
+
+            richTextBox1.Text = content;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -126,7 +139,7 @@ namespace WindowsFormsApplication1
         private float[][] RandomMatrix(int size)
         {
             float[][] matrix = new float[size][];
-            Random r = new Random();
+            
             for (int i = 0; i < size; i++)
             {
                 matrix[i] = new float[size];
