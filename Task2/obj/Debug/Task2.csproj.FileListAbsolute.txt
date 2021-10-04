@@ -1,0 +1,10 @@
+C:\Users\Валера\source\repos\Task2\bin\Debug\Task2.exe.config
+C:\Users\Валера\source\repos\Task2\bin\Debug\Task2.exe
+C:\Users\Валера\source\repos\Task2\bin\Debug\Task2.pdb
+C:\Users\Валера\source\repos\Task2\obj\Debug\Task2.csproj.AssemblyReference.cache
+C:\Users\Валера\source\repos\Task2\obj\Debug\Task2.Form1.resources
+C:\Users\Валера\source\repos\Task2\obj\Debug\Task2.Properties.Resources.resources
+C:\Users\Валера\source\repos\Task2\obj\Debug\Task2.csproj.GenerateResource.cache
+C:\Users\Валера\source\repos\Task2\obj\Debug\Task2.csproj.CoreCompileInputs.cache
+C:\Users\Валера\source\repos\Task2\obj\Debug\Task2.exe
+C:\Users\Валера\source\repos\Task2\obj\Debug\Task2.pdb
