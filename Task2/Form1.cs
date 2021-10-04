@@ -33,7 +33,7 @@ namespace Task2
 
                     string content = File.ReadAllText(filePath);
 
-                    var matches = Regex.Matches(content, @"\b[\w]+\b");
+                    var matches = Regex.Matches(content, @"\w+");
 
                     List<string> result = new List<string>();
 
