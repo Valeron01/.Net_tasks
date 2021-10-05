@@ -47,16 +47,18 @@ namespace Task2
                         }
                     }
 
+                    
 
-                    string dir = Path.GetDirectoryName(filePath);
-                    string ext = Path.GetExtension(filePath);
-                    string baseName = Path.GetFileNameWithoutExtension(filePath);
+                    using (SaveFileDialog saveFileDialog = new SaveFileDialog())
+                    {
+                        saveFileDialog.RestoreDirectory = true;
 
-                    string resultPath = Path.Combine(dir, baseName + "_result" + ext);
-
-                    File.WriteAllLines(resultPath, result.ToArray());
-
-                    MessageBox.Show("Результат сохранён в " + resultPath);
+                        if (saveFileDialog.ShowDialog() == DialogResult.OK)
+                        {
+                            File.WriteAllLines(saveFileDialog.FileName, result.ToArray());
+                            MessageBox.Show("Сохранено в " + saveFileDialog.FileName);
+                        }
+                    }
                 }
             }
         }
