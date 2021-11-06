@@ -25,9 +25,23 @@ namespace Task3_Window
             Random r = new Random();
             Van van = new Van();
 
-            float totalPrice = 10000;
 
-            while (van.calcPrice() < totalPrice)
+            float maxPrice = 0;
+            float maxVolume = 0;
+
+            try
+            {
+                maxPrice = float.Parse(MaxPrice.Text);
+
+                maxVolume = float.Parse(MaxVolume.Text);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Ошибка во входных данных!");
+            }
+
+
+            while (van.calcPrice() < maxPrice && van.calcVolume() < maxVolume)
             {
                 int coffeeType = r.Next(0, 3);
 
@@ -49,11 +63,6 @@ namespace Task3_Window
             {
                 richTextBox1.Text += coffe.ToString() + "\n";
             }
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

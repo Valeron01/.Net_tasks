@@ -32,11 +32,14 @@ namespace Task3_Window
             this.button1 = new System.Windows.Forms.Button();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.MaxPrice = new System.Windows.Forms.TextBox();
+            this.MaxVolume = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(610, 10);
+            this.button1.Location = new System.Drawing.Point(610, 58);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 1;
@@ -55,17 +58,43 @@ namespace Task3_Window
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(611, 40);
+            this.label1.Location = new System.Drawing.Point(607, 13);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(55, 13);
+            this.label1.Size = new System.Drawing.Size(54, 13);
             this.label1.TabIndex = 3;
-            this.label1.Text = "TotalPrice";
+            this.label1.Text = "MaxPrice:";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(607, 35);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(65, 13);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "MaxVolume:";
+            // 
+            // MaxPrice
+            // 
+            this.MaxPrice.Location = new System.Drawing.Point(677, 12);
+            this.MaxPrice.Name = "MaxPrice";
+            this.MaxPrice.Size = new System.Drawing.Size(100, 20);
+            this.MaxPrice.TabIndex = 5;
+            // 
+            // MaxVolume
+            // 
+            this.MaxVolume.Location = new System.Drawing.Point(677, 32);
+            this.MaxVolume.Name = "MaxVolume";
+            this.MaxVolume.Size = new System.Drawing.Size(100, 20);
+            this.MaxVolume.TabIndex = 6;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(691, 646);
+            this.ClientSize = new System.Drawing.Size(829, 646);
+            this.Controls.Add(this.MaxVolume);
+            this.Controls.Add(this.MaxPrice);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.button1);
@@ -80,6 +109,9 @@ namespace Task3_Window
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox MaxPrice;
+        private System.Windows.Forms.TextBox MaxVolume;
     }
 }
 
