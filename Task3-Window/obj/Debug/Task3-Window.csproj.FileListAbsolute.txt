@@ -1,0 +1,10 @@
+C:\Users\Валера\source\repos\Task3-Window\bin\Debug\Task3-Window.exe.config
+C:\Users\Валера\source\repos\Task3-Window\bin\Debug\Task3-Window.exe
+C:\Users\Валера\source\repos\Task3-Window\bin\Debug\Task3-Window.pdb
+C:\Users\Валера\source\repos\Task3-Window\obj\Debug\Task3-Window.csproj.AssemblyReference.cache
+C:\Users\Валера\source\repos\Task3-Window\obj\Debug\Task3_Window.Form1.resources
+C:\Users\Валера\source\repos\Task3-Window\obj\Debug\Task3_Window.Properties.Resources.resources
+C:\Users\Валера\source\repos\Task3-Window\obj\Debug\Task3-Window.csproj.GenerateResource.cache
+C:\Users\Валера\source\repos\Task3-Window\obj\Debug\Task3-Window.csproj.CoreCompileInputs.cache
+C:\Users\Валера\source\repos\Task3-Window\obj\Debug\Task3-Window.exe
+C:\Users\Валера\source\repos\Task3-Window\obj\Debug\Task3-Window.pdb
