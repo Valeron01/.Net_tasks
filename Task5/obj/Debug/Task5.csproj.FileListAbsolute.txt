@@ -1,0 +1,10 @@
+C:\Users\Валера\source\repos\Task5\bin\Debug\Task5.exe.config
+C:\Users\Валера\source\repos\Task5\bin\Debug\Task5.exe
+C:\Users\Валера\source\repos\Task5\bin\Debug\Task5.pdb
+C:\Users\Валера\source\repos\Task5\obj\Debug\Task5.csproj.AssemblyReference.cache
+C:\Users\Валера\source\repos\Task5\obj\Debug\Task5.Form1.resources
+C:\Users\Валера\source\repos\Task5\obj\Debug\Task5.Properties.Resources.resources
+C:\Users\Валера\source\repos\Task5\obj\Debug\Task5.csproj.GenerateResource.cache
+C:\Users\Валера\source\repos\Task5\obj\Debug\Task5.csproj.CoreCompileInputs.cache
+C:\Users\Валера\source\repos\Task5\obj\Debug\Task5.exe
+C:\Users\Валера\source\repos\Task5\obj\Debug\Task5.pdb
